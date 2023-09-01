@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Sivaditya" />
+    <meta name="description" content="Hello World Page" />
+
+    <title>Hello_World!</title>
+    <link rel="icon" href="Images/html5.png" type="image/x-icon" />
+    <link rel="stylesheet" href="Css.css" type="text/css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Hello World!</h1>
+      <nav aria-label="primary navigation">
+        <ul>
+          <li>
+            <a href="#learning">Learning HTML</a>
+          </li>
+          <li>
+            <a href="#Gamer">Gamer</a>
+          </li>
+          <li>
+            <a href="#Best Games">Best Games</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <hr />
+    <main>
+      <article id="html">
+        <h2>I am ready to learn HTML</h2>
+        <p>This is my first web page`</p>
+        <section>
+          <h3>HTML5</h3>
+          <img
+            src="Images/html_logo_300x300.png"
+            alt="learning HTML"
+            height="300"
+            width="300"
+          />
+          <figure>
+            <figcaption>An Example of HTML code</figcaption>
+            <p>
+              <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code>
+            </p>
+          </figure>
+        </section>
+        <section>
+          <h3>I am currently learning Full Stack Development</h3>
+          <p>let me tell you how:</p>
+          <ol>
+            <li>... I started learning Web Development basics.</li>
+            <li>
+              ... then I will concentrate on Front End and Back End technologies
+            </li>
+            <li>
+              ... I use resources from
+              <abbr title="Youtube"
+                ><a href="https://www.youtube.com/">YT</a></abbr
+              >.
+            </li>
+          </ol>
+          <aside>
+            <details>
+              <summary>
+                <mark>Guess the numbers of hours I code daily</mark>
+              </summary>
+              <p>
+                I start at 11:00 a.m., and code for <mark>8 hours</mark> as a
+                part of my job
+              </p>
+            </details>
+          </aside>
+        </section>
+      </article>
+
+      <hr />
+
+      <article id="Gamer">
+        <h3>I am a gamer</h3>
+        <p>these are the games I like to play everyday:</p>
+
+        <p>
+          <li>
+            <strong>VALORANT</strong>
+            <figure>
+              <img
+                src="Images/valorantLogo.png"
+                alt="Valorant Logo"
+                height="40"
+                width="40"
+              />
+            </figure>
+          </li>
+        </p>
+        <p>
+          <li>
+            <strong>Dota2</strong>
+            <figure>
+              <img
+                src="Images/dota-2-icon-5.jpg"
+                alt="Dota2 Logo"
+                height="50"
+                width="50"
+              />
+            </figure>
+          </li>
+        </p>
+        <p>
+          <li>
+            <strong>Diablo4</strong>
+            <figure>
+              <img
+                src="Images/diablo_4.png"
+                alt="Diablo4 Logo"
+                height="50"
+                width="50"
+              />
+            </figure>
+          </li>
+        </p>
+        <!--    you can add these as many you want-->
+        <hr />
+        <h3>I am working hard these days</h3>
+        <p><em>I need to plan some hours for gaming</em></p>
+      </article>
+
+      <hr />
+      <article id="Best Games">
+        <h4>Best games I have played :</h4>
+        <p>these are the best story based games ever made!</p>
+
+        <dl>
+          <dt><strong> Witcher series </strong></dt>
+          <figure>
+            <img
+              src="Images/Witcher.png"
+              alt="Witcher Series"
+              width="300"
+              height="150"
+            />
+            <figcaption>
+              you play as Geralt of Rivia whose life takes sudden unexpected
+              turn
+            </figcaption>
+          </figure>
+
+          <dt><strong> Red Dead Redemption series </strong></dt>
+          <figure>
+            <img
+              src="Images/red_dead_redemption.png"
+              alt="Witcher Series"
+              width="300"
+              height="150"
+            />
+            <figcaption>
+              you play as Arthur who needs to lead Van der Linde gang of outlaws
+            </figcaption>
+          </figure>
+        </dl>
+      </article>
+
+      <article id="contact">
+        <h2>Contact Me</h2>
+        <p>I'd really like to hear from you!</p>
+
+        <form action="https://httpbin.org/get" method="get">
+            <fieldset>
+                <legend>Personal Info</legend>
+                <p>
+                    <label for="firstName">First Name:</label>
+                    <input type="text" name="firstName" id="firstName" placeholder="Jane" autocomplete="on" required>
+                </p>
+                <p>
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" name="lastName" id="lastName" placeholder="Doe" autocomplete="on" required>
+                </p>
+                <p>
+                    <label for="E-Mail">E-Mail</label>
+                    <input type="email" name="email" id="email" placeholder="youremail@email.com" required>
+                </p>
+                <p>
+                    <label for="phone">Phone:</label>
+                    <input type="tel" name="phone" id="phone" placeholder="5555555555"
+                        pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+                </p>
+                
+            </fieldset>
+
+            <br>
+            <fieldset>
+                <p>
+                    <label for="coffee">Favorite Coffee:</label>
+                    <select name="coffee" id="coffee" multiple size="5">
+                        <optgroup label="Coffees">
+                            <option value="regular coffee">Regular Coffee</option>
+                            <option value="iced coffee">Iced Coffee</option>
+                        </optgroup>
+                        <optgroup label="Espresso Drinks">
+                            <option value="latte" selected>Latte</option>
+                            <option value="cappuccino">Cappuccino</option>
+                            <option value="cortado">Cortado</option>
+                            <option value="americano">Americano</option>
+                        </optgroup>
+                        <option value="other">Other</option>
+                    </select>
+                    <!-- <p>
+                <label for="coffee">Favorite Coffee:</label>
+                <input type="text" name="coffee" id="coffee" list="coffee-list">
+                <datalist id="coffee-list">
+                    <option value="coffee">
+                    <option value="latte">
+                    <option value="espresso">
+                    <option value="cortado">
+                    <option value="americano">
+                    <option value="other">
+                </datalist>
+            </p> -->
+                </p>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>What is your favorite food?</legend>
+                <p>
+                    <input type="radio" name="food" id="tacos" value="tacos">
+                    <label for="tacos">Tacos</label>
+                </p>
+                <p>
+                    <input type="radio" name="food" id="pizza" value="pizza">
+                    <label for="pizza">Pizza</label>
+                </p>
+                <p>
+                    <input type="radio" name="food" id="other" value="other">
+                    <label for="other">Other</label>
+                </p>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Do you have pets?</legend>
+                <p>
+                    <input type="checkbox" name="pets" id="dog" value="dog">
+                    <label for="dog">Dog</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="pets" id="cat" value="cat">
+                    <label for="cat">Cat</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="pets" id="fish" value="fish">
+                    <label for="fish">Fish</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="pets" id="otherPet" value="otherPet">
+                    <label for="otherPet">Other</label>
+                </p>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Send Me A Note</legend>
+                <label for="message">Your Message:</label>
+                <br>
+                <textarea name="message" id="message" cols="30" rows="10"
+                    placeholder="Type your message here"></textarea>
+            </fieldset>
+            <br>
+            <button type="submit">Submit</button>
+            <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+            <button type="reset">Reset</button>
+        </form>
+    </article>
+    </main>
+    <hr />
+    <footer>
+      <p>&lt;&lt;&lt; &copy; <a href="about.html">Tinku</a> &gt;&gt;&gt;</p>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </footer>
+  </body>
+</html>

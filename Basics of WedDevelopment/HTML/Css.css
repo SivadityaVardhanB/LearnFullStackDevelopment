@@ -2,8 +2,19 @@ html {
     font-size: 22px;
 }
 body {
+    height: 100%;
     background-color: black;
     color: whitesmoke;
+}
+
+.bg {
+    background-image: url(Images/Gamer_Nostalgia.png);
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 a {

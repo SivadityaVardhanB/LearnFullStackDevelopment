@@ -1,0 +1,42 @@
+html {
+    font-size: 18px;
+    font-family: fantasy;
+    font-style: oblique;
+}
+body {
+    height: 100%;
+    background-color: black;
+    color: whitesmoke;
+    font-family: monospace;
+}
+a {
+    color: aliceblue;
+}
+
+a:visited {
+    color: cadetblue;
+}
+
+a:hover {
+    color: aqua;
+}
+
+a:active {
+    color: deepskyblue;
+}
+
+.pageHeader {
+    color: chocolate;
+    font-style: initial;
+}
+
+#heading1:hover {
+    color: blanchedalmond;
+}
+#heading1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#inspirations:hover {
+    color: aqua;
+}

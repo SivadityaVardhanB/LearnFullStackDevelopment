@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <meta name="author" content="Sivaditya" />
+        <meta name="description" content="Contact Travelling Pandas" />
+        <!-- Title -->
+        <title>Contact Travelling Pandas</title>
+        <link rel="stylesheet" href="../CSS/basicstyle.css">
+        <link rel="icon" href="../Images/IconSmall.png">
+    </head>
+
+    <body>
+        <div class="contactHeader"></div>
+        <header>
+            <h1>Contact Travelling Pandas</h1>
+        </header>
+        <p>please fill the below form to reach out to us</p>
+        <br>
+        <form action="" method="post">
+            <label for="firstname">First name:</label><br>
+            <input type="text" id="firstname" name="firstname" size=30 placeholder="First Name" required><br>
+            <label for="lastname">Last name:</label><br>
+            <input type="text" id="lastname" name="lastname" size=30 placeholder="Last Name" required><br>
+            <label for="phone">Mobile number:</label> <br>
+            <input type="tel" id="mobile" name="mobilenumber" size="30" placeholder="999-999-9999" maxlength="10"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" id="email" size=30 placeholder="email@example.com" pattern=".+@domain\.com"
+                required>
+            <br>
+            <label for="question">Enter your query here:</label><br>
+            <textarea name="querytext" id="querytext" cols="30" rows="10"></textarea><br>
+            <br>
+            <div class="formButtons">
+                <input type="submit" /> &nbsp;
+                <input type="reset" /> &nbsp;
+                <input type="button" value="Cancel" />
+            </div>
+        </form><br>
+
+        <div>
+            <p> <a href="HomePage.html">back to HomePage</a></p>
+        </div>
+    </body>
+
+</html>

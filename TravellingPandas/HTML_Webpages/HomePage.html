@@ -3,12 +3,13 @@
 
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
     <meta name="author" content="Sivaditya" />
     <meta name="description" content="Home Page" />
 
     <title>Travelling Pandas</title>
-    <link rel="icon" href="Images/IconSmall.png" type="image/x-icon" />
-    <link rel="stylesheet" href="./CSS/basicstyle.css" type="text/css" />
+    <link rel="icon" href="../Images/IconSmall.png" type="image/x-icon" />
+    <link rel="stylesheet" href=".././CSS/basicstyle.css" type="text/css" />
   </head>
 
   <body>
@@ -17,47 +18,40 @@
       <header>
         <h1><span id="heading1">Travelling Pandas</span></h1>
         <figure>
-          <img src="Images/FullLogo.png" alt="full logo" width="500" height="300" />
+          <img src="../Images/FullLogo.png" alt="full logo" width="500" height="300" />
         </figure>
       </header>
     </div>
-    <hr />
     <!-- navigation elements -->
     <!-- Navigation bar -->
-    <nav aria-label="navigation panel">
-      <a href="Menubar.html"> Menu bar </a> &nbsp;
+    <nav aria-label="navigation panel left">
       <a href="#">Home</a> &nbsp;
-      <a href="Explore.html"> Explore </a> &nbsp;
-      <a href="Offers.html"> Offers </a> &nbsp;
-      <a href="Parents.html"> Family </a> &nbsp;
-      <a href="Profile.html"> Profile </a>
+      <a href="Explore.html">Explore</a> &nbsp;
+      <a href="Offers.html">Offers</a> &nbsp;
+      <a href="Family.html">Family</a> &nbsp;
+      <a href="Profile.html">Profile</a>
     </nav>
-    <hr />
-    <!-- drop down menus -->
-    <div class="dropdown menus">
-      <a href="TravelBlog.html">TravelBlog</a> &nbsp;
-      <a href="TopAttractions.html">Top TopAttractions</a> &nbsp;
-      <a href="RoadTips.htmll">Road Trips</a> &nbsp;
-      <label for="inspirations" id="inspirations">
-        <a href="Inspirations.html">Inspirations</a>
-        <span class="arrow">&#9662;</span></label>
-      <select name="inspirations" id="inspirations-dropdown">
-        <option value="Adventures">Adventures</option>
-        <option value="HillStations">HillStations</option>
-        <option value="HistoricalPlaces">Historical Places</option>
+    <br>
+    <!-- side bar pages -->
+    <div class="sideBar right">
+      <a class="sideBar" href="TravelBlog.html">TravelBlog</a> &nbsp;
+      <a class="sideBar" href="TopAttractions.html">Top TopAttractions</a> &nbsp;
+      <a class="sideBar" href="RoadTips.htmll">Road Trips</a> &nbsp;
+      <a class="sideBar" href="Inspirations.html">Inspire Me</a> &nbsp;
+      <!--select name="inspirations" id="inspirations-dropdown">
+        <option value="Adventure">Adventures</option>
+        <option value="HillStation">HillStations</option>
+        <option value="Historical">Historical Places</option>
+        <option value="Spiritual">Spiritual</option>
         <option value="WeekendGetaways">Weekend Getaways</option>
-        <option value="ThingsToDo">ThingsToDo</option>
         <option value="Festivals">Festivals</option>
-        <option value="Events">Events</option>
-        <option value="NightLife">NightLife</option>
-        <option value="Cafes">Cafes</option>
-        <option value="Shopping">Shopping</option>
-      </select>
-      </select>
-      <a href="HotelBookings.html">Book Hotels</a>
-      <a href="TransportBookings.html">Book Transport</a>
+      </!--select>
+      </select-->
+      <a class="sideBar" href="Bookings.html">Bookings</a>
     </div>
-    <hr>
+    <br>
+
+    <!-- home page body-->
     <main>
       <article id="bestPlacesDuringSept">
         <section>
@@ -65,7 +59,7 @@
           <ol>
             <li><strong>Ziro, Arunachal Pradesh</strong>
               <figure>
-                <img src="Images/Ziro.png" alt="Ziro, Arunachal Pradesh" height="300" width="500">
+                <img src="../Images/Ziro.png" alt="Ziro, Arunachal Pradesh" height="300" width="500">
               </figure>
 
               <p>This is a world heritage site, Ziro - a paradise for the peace seekers - ranks on the top of our
@@ -96,7 +90,7 @@
 
             <li><strong>Srinagar - Jammu and Kashmir</strong>
               <figure>
-                <img src="Images/Cover-for-Kashmir-in-September.png" alt="Srinagar" height="300" width="500">
+                <img src="../Images/Cover-for-Kashmir-in-September.png" alt="Srinagar" height="300" width="500">
               </figure>
               <p>
                 Come here if you want to witness a true 'Paradise on Earth'. For those planning a holiday in India this
@@ -132,7 +126,7 @@
 
             <li><strong>Dubare - Karnataka</strong>
               <figure>
-                <img src="Images/Dubare.png" alt="Dubare" height="300" width="500">
+                <img src="../Images/Dubare.png" alt="Dubare" height="300" width="500">
               </figure>
               <p>
                 A popular hilly terrain and backwaters in Karnataka known for elephants. Tourists from all over India
@@ -176,7 +170,7 @@
         <a href="About.html">About</a> &nbsp;
         <a href="PrivacyTerms.html">Privacy & Terms</a> &nbsp;
         <a href="Join_us.html">Join us</a> &nbsp;
-        <a href="WritetoUs.html">Write to us</a> &nbsp;
+        <a href="ContactUs.html">Contact us</a> &nbsp;
         <a href="HelpCentre.html">Help centre</a>
       </nav>
     </footer>
